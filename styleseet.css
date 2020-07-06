@@ -48,7 +48,7 @@ a{
 /*top*/
 
 .top-img{
-    background: url(img/main.jpg) no-repeat;
+    background: url(main.jpg) no-repeat;
     background-size: cover;
     background-position: 50% 50%; 
     position: relative;
