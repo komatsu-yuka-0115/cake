@@ -3,55 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styleseet.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="x-icon.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
     <title>喫茶2020</title>
-    
 </head>
 <body>
 
     <header class="header">
         <img class="logo" src="logo.png" alt="logo">
         <ul class="nav">
-            <li class="nav-item"><a href="#">exhibition</a></li>
-            <li class="nav-item"><a href="#">menu</a></li>
-            <li class="nav-item"><a href="#">about</a></li>
+            <li class="nav-item"><a href="#">Exhibition</a></li>
+            <li class="nav-item"><a href="#">Menu</a></li>
+            <li class="nav-item"><a href="#">Blog</a></li>
+            <li class="nav-item"><a href="#">About</a></li>
         </ul>
-
-    </header>
+     </header>
 
     <main>
         <section class="top">
-            <div class="top-img"></div>
-            <dic class="top-setsumei">
-                <h2 class="top-title">まだ見たことない感性と<br>美味しさをお届け</h2>
-                <p class="top-text">喫茶2020は新時代「令和」にできた、ギャラリー&カフェです。
-                    毎月変わるケーキはまるで季節を味わうような感性と美味しさを提供。
-                    ギャラリーでは立体から平面まで様々なアーティストの作品をご覧になれます。</p>
-            </section>
-            </dic>
-           
-        <section class="limited">
-            <div class="limited-exhibition">
-                <img class="limited-img" src="main.jpg" alt="今月の展示">
-                <div class="limited-exhibition-item-01">
-                    <h2 class="limited-title">イラストレーション展：草枕展</h2>
-                    <p class="limited-text">2020.05.02(wed)- 05.30(fri)<br>
-                        山路やまみちを登りながら、こう考えた。智ちに働けば角かどが立つ。情じょうに棹さおさせば流される。意地を通とおせば窮屈きゅうくつだ。とかくに人の世は住みにくい。住みにくさが高こうじると、安い所へ引き越したくなる。どこへ越しても住みにくいと悟さとった時、詩が生れて、画えが出来る。</p>
-                </div> 
-            </div>
-
-            <div class="limited-exhibition">  
-                <div class="limited-exhibition-item-02">
-                    <h2 class="limited-title">コラボメニュー：キャロットケーキ</h2>
-                    <p class="limited-text">2020.05.02(wed)- 05.30(fri)<br>
-                        山路やまみちを登りながら、こう考えた。智ちに働けば角かどが立つ。情じょうに棹さおさせば流される。意地を通とおせば窮屈きゅうくつだ。とかくに人の世は住みにくい。住みにくさが高こうじると、安い所へ引き越したくなる。どこへ越しても住みにくいと悟さとった時、詩が生れて、画えが出来る。</p>
-                </div> 
-                <img class="limited-img" src="main-cake.jpg" alt="キャロットケーキ">
-            </div>
-            
+            <ul class="topimg">
+            <li class="top-img"><img src=main.jpg alt="店舗"></li>   
+            <li class="top-img"><img src=Exhibition.jpg alt="展示"></li>   
+            </ul>
         </section>
+
         <section class="menu">
             <h2 class="title">menu</h2>
                 <div class="grid-menu">
@@ -61,18 +39,22 @@
                     <div class="menu-item"><a href="#"><img src="item5.jpg" alt="menu"></a></div>
                     <div class="menu-item"><a href="#"><img src="item6.jpg" alt="menu"></a></div>
                     <div class="menu-item"><a href="#"><img src="item7.jpg" alt="menu"></a></div>
-                   
+                </div>
+                <div class="sonota"><p><a href="#">その他メニュー</a></p>
                 </div>
            
         </section>
         <section class="accses">
-            <h2 class="title">accses</h2>
+            <h2 class="title-accses">accses</h2>
+            <div class="accses-map">
+                <p class="accses-text">
+                    <span>喫茶2020 大阪店</span><br>
+                    営業時間 : 10:00〜18:00 <br>
+                     定休日 : 木曜日<br>
+                    大阪城公園駅から徒歩５分
+                </p>
             <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26245.65937986336!2d135.525956!3d34.687333!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf01d07d5ca11e41!2z5aSn6Ziq5Z-O!5e0!3m2!1sja!2sjp!4v1591878302611!5m2!1sja!2sjp" width="600" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            <p class="accses-text">
-                <span>喫茶2020 大阪店</span><br>
-                営業時間 : 10:00〜18:00 / 定休日 : 木曜日<br>
-                大阪城公園駅から徒歩５分
-            </p>
+        </div>
             <img class="accses-img" src="accses.jpg" alt="accses">
             
         </section>
